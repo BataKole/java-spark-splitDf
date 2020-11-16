@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="splitJson:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -23,15 +28,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01ee24ff-a27d-49ad-a29f-5895d581cc1e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/splitJson_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out5.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/splitJson.iml" beforeDir="false" afterPath="$PROJECT_DIR$/splitJson.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/SplitJson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SplitJson.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SplitJson.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SplitJson.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/data/generated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/data/generated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/data/generated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/data/generated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/data/generated.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/data/generated.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/data/generated.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +58,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="mavenHome" value="D:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.2\plugins\maven\lib\maven3" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -61,6 +68,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1kFCY8yjXT8iIMAnkFJFiKrtTYR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -68,8 +76,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -83,6 +92,7 @@
     <configuration name="splitJson" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="SplitJson" />
       <module name="splitJson" />
+      <option name="PROGRAM_PARAMETERS" value="&quot;./data/generated.json&quot; 7" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,21 +119,20 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1605287747960">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605287747960" />
-    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605289161763">
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605532138326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605289161763" />
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605289157189">
+    <state x="414" y="174" width="1092" height="763" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605532138326" />
+    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1605532000463">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605289157189" />
+    <state x="689" y="321" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605532000463" />
     <state x="681" y="208" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1605288020306">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -132,39 +141,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="761" y="299" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605289074862" />
-    <state width="1324" height="178" key="GridCell.Tab.0.bottom" timestamp="1605527216434">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1605297233760">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.bottom/0.0.1366.741@0.0.1366.741" timestamp="1605527216434" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605297233760" />
-    <state width="1324" height="178" key="GridCell.Tab.0.center" timestamp="1605527216433">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1605297233760">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.center/0.0.1366.741@0.0.1366.741" timestamp="1605527216433" />
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605297233760" />
-    <state width="1324" height="178" key="GridCell.Tab.0.left" timestamp="1605527216432">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1605297233760">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.left/0.0.1366.741@0.0.1366.741" timestamp="1605527216432" />
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605297233760" />
-    <state width="1324" height="178" key="GridCell.Tab.0.right" timestamp="1605527216433">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1605297233760">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1324" height="178" key="GridCell.Tab.0.right/0.0.1366.741@0.0.1366.741" timestamp="1605527216433" />
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605297233760" />
-    <state x="216" y="27" width="924" height="678" key="Maven.ArtifactSearchDialog" timestamp="1605353701372">
-      <screen x="0" y="0" width="1366" height="741" />
-    </state>
-    <state x="216" y="27" width="924" height="678" key="Maven.ArtifactSearchDialog/0.0.1366.741@0.0.1366.741" timestamp="1605353701372" />
     <state x="646" y="294" key="NewModule_or_Project.wizard" timestamp="1605289081195">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="646" y="294" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1605289081195" />
-    <state x="328" y="0" width="1024" height="735" key="SettingsEditor" timestamp="1605354151824">
-      <screen x="0" y="0" width="1366" height="741" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1605532029575">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="328" y="0" width="1024" height="735" key="SettingsEditor/0.0.1366.741@0.0.1366.741" timestamp="1605354151824" />
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605289133135" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1605532029575" />
     <state x="342" y="140" key="new project wizard" timestamp="1605289045071">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

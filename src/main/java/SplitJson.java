@@ -11,6 +11,14 @@ public class SplitJson {
 
     public static void main(String[] args) throws FileNotFoundException {
 
+        // First, ensure there are 2 args
+        if (args.length != 2) {
+            throw new IllegalArgumentException("Exactly 2 parameters required !");
+        }
+        String jsonPath = args[0];
+        int partsNum = Integer.parseInt(args[1]);
+
+
         JSONParser jsonParser = new JSONParser();
 
         JSONArray employeeList = new JSONArray();
@@ -19,7 +27,7 @@ public class SplitJson {
 
 
         // Load Json file
-        try (FileReader reader = new FileReader("./data/generated.json")){
+        try (FileReader reader = new FileReader(jsonPath)){
 
             Object obj = jsonParser.parse(reader);
 
@@ -34,7 +42,6 @@ public class SplitJson {
         }
 
         int totalSize = employeeList.size();
-        int partsNum = 5;
         int partSize = (totalSize / partsNum) + 1;
 
 
@@ -56,7 +63,7 @@ public class SplitJson {
 
                     file.write(temp.toJSONString());
                     file.flush();
-                    System.out.println("Writing part " + j);
+                    System.out.println("Part " + j + " written.");
                     j++;
 
                 } catch (IOException e) {
